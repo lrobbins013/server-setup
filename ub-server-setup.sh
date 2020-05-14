@@ -9,8 +9,7 @@ add-apt-repository ppa:stebbins/handbrake-releases
 apt-get update
 apt-get upgrade -y
 
-apt-get install ubuntu-desktop --no-install-recommends -y
-apt-get install handbrake-cli emacs-nox samba -y
+apt-get install kubuntu-desktop handbrake-cli emacs-nox samba -y
 
 wget -P realvnc/ https://www.realvnc.com/download/file/vnc.files/VNC-Server-6.7.1-Linux-x64.deb
 dpkg -i realvnc/VNC-Server-6.7.1-Linux-x64.deb
