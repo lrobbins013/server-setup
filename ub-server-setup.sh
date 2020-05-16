@@ -23,4 +23,5 @@ wget -P ~/minecraft/1.15.2/ https://launcher.mojang.com/v1/objects/bb2b6b1aefcd7
 wget -P ~/minecraft/1.14.4/https://mcversions.net/download/1.14.4
 wget -P ~/minecraft/1.8.9/https://mcversions.net/download/1.8.9
 
-sudo reboot
+#sudo reboot
+echo "Reboot computer for all changes to take effect."
